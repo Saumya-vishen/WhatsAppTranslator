@@ -10,7 +10,7 @@
             padding: 10px;
             width: 200px;
         }
-        select, button {
+        select, button, input {
             width: 100%;
             margin-bottom: 10px;
         }
@@ -26,9 +26,13 @@
         <option value="zh">Chinese</option>
         <option value="ja">Japanese</option>
     </select>
-    <button id="translateButton">Translate</button>
-    
+    <input type="text" id="messageInput" placeholder="Type your message here..." />
+    <button id="translateButton">Translate Existing Messages</button>
+    <button id="sendButton">Send Typed Message</button>
+   
     <script src="popup.js"></script>
 </body>
 </html>
 
+
+  
